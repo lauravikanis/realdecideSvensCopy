@@ -1,0 +1,43 @@
+.setTooltip {
+  background-color: var(--action-background);
+  padding: 1rem;
+}
+.setList {
+  margin: 1rem auto;
+  text-align: center;
+}
+.setTitle {
+  font-size: 3rem;
+}
+.sets {
+  margin: auto;
+  color: var(--text-color);
+  letter-spacing: 2px;
+  text-shadow: 2px 0px 1px var(--background-dark);
+  font-family: var(--titelFont);
+  font-size: 1.5rem;
+}
+
+.setList form {
+  margin: 1rem;
+}
+
+.setList input {
+  padding: 0.3rem 1rem;
+}
+
+.setList__set {
+  margin: 0.5rem;
+  min-width: 80px;
+  font-size: 1rem;
+  background-color: var(--background-dark);
+  color: white;
+  border: var(--action-text);
+  border-radius: 5px;
+}
+
+.tippy-content {
+  padding: 0.2rem;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
